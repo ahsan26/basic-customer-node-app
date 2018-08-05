@@ -1,0 +1,21 @@
+{
+  "name": "revision_of_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node /server.js",
+    "dev": "nodemon /server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

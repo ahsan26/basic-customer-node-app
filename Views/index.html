@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body onload="showCustomers()">
+    <h1>Add Customer</h1>
+    <form action="JavaScript:void(0)" onsubmit="addCustomer()">
+        <br />
+        <br />
+        <input type="text" id="first_name" placeholder="First Name" />
+        <br />
+        <br />
+        <input type="text" id="last_name" placeholder="Last Name" />
+        <br />
+        <br />
+        <input type="text" id="email" placeholder="email" />
+        <br />
+        <br />
+        <button type="submit">Add</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>Customers</h1>
+    <ul id="customers">
+    </ul>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
