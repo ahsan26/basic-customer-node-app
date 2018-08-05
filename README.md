@@ -1,1 +1,1 @@
-# basic-customer-node-app
+# Basic Customer Node App
